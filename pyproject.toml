@@ -58,7 +58,7 @@ dependencies = [
     "Rx>=1.6.3,<2",
     "semantic-version>=2.10.0,<3",
     "sentry-sdk~=2.58",
-    "stripe>=3.0.0,<4",
+    "stripe>=15.6.1,<16",
     "text-unidecode~=1.2",
     "urllib3>=2.7.0,<3",
     "uvicorn[standard]==0.52.1",
