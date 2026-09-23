@@ -449,7 +449,6 @@ source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cffi" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/bb/ad/5d6702db60b1e40b41ef513b6967ff5848f307d50f8449baf1634f5908f1/cryptography-50.0.1.tar.gz", hash = "sha256:5dd9bda1c12b4162f6ff568eeb5e0ff956c28d14406e875cfe8a63a2d414ff20", size = 880381, upload-time = "2026-08-25T19:45:45.499Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ba/19/797e2aaac9df6a66f1550f49979dc1b1e39ecd2077501c30efa81e8d5d67/cryptography-50.0.1-cp311-abi3-macosx_11_0_arm64.whl", hash = "sha256:b8f852c65863251b9e3a1b8c150ce21e59b522dbb6a7d4bc80e680d38388e986", size = 4010153, upload-time = "2026-08-25T19:44:03.155Z" },
     { url = "https://files.pythonhosted.org/packages/90/34/9ce9a62ed9dc82ca9fd6a34445b6904af56e5f38b3eae2ed32e49c36053d/cryptography-50.0.1-cp311-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:53e279950892dc102c6b4e52af03ae5ea92fac572a1ddab78ca73a997f62b69f", size = 4723133, upload-time = "2026-08-25T19:44:05.461Z" },
@@ -1417,15 +1416,14 @@ wheels = [
 
 [[package]]
 name = "micawber"
-version = "0.6.2"
+version = "0.7.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
-    { name = "lxml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/45/9e/bdaec8ff46c130a62c446d9feaabedfd6ef9e072a26fad940bd81aec0829/micawber-0.6.2.tar.gz", hash = "sha256:cc04c19a5e0eb3615b8cd95d5aefdad5cde4f52a61c12d45071727dfe131b760", size = 19589, upload-time = "2026-01-07T16:30:15.179Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c3/57/dbcaf80cc34b81b4bddbbdf3ff62ad598a7d5602172d26618a64f745bc06/micawber-0.7.1.tar.gz", hash = "sha256:ff615869a113a0c18de144ade357e4466c6776cd6b634575abf49dcb42c62f7f", size = 21456, upload-time = "2026-08-29T22:50:25.732Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/41/05/f7e8c73f7666fb09d7d38957ee06eaf200ee86fddefcdb497319a06a7b02/micawber-0.6.2-py3-none-any.whl", hash = "sha256:f9ed828f60cfbce98459e5bf639fd9a2cacb5b22a4ce7b0c30b4eab4d5d12924", size = 22426, upload-time = "2026-01-07T16:30:14.27Z" },
+    { url = "https://files.pythonhosted.org/packages/05/d1/4150bee187363ae2180f2fc7e05e797d122648b1f9131efcc4fe9ff98873/micawber-0.7.1-py3-none-any.whl", hash = "sha256:038690a89fe5a58d6311c073d2d63d4b72919c59b6086c622640bafcc48ce3db", size = 24444, upload-time = "2026-08-29T22:50:24.726Z" },
 ]
 
 [[package]]
@@ -2056,7 +2054,6 @@ wheels = [
 name = "pyjwt"
 version = "2.14.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/af/c3/8a3b59c25070cc61dc517fbdfa5dc0904670c96f605cc69759dc09166b99/pyjwt-2.14.0.tar.gz", hash = "sha256:77283c83fb56ecf566a886c757a714bc83668e38156de2cce8263302f42e0b86", size = 113177, upload-time = "2026-09-11T13:11:54.638Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/9c/97/672cb32ce0dfea44b740cb7b4f97038463b9cf7c0ead1aacf595572851d6/pyjwt-2.14.0-py3-none-any.whl", hash = "sha256:ad0cef71c756a56e74863c2919cf0985f72decbcfcb550ee2f422e7c62b5eedc", size = 32896, upload-time = "2026-09-11T13:11:53.409Z" },
 ]
@@ -2596,7 +2593,7 @@ requires-dist = [
     { name = "kombu", extras = ["sqs"], specifier = ">=4.6.11,<6.0.0" },
     { name = "lxml", specifier = ">=6.1.1,<7" },
     { name = "measurement", specifier = ">=3.2.2,<4" },
-    { name = "micawber", specifier = ">=0.6.2,<0.7" },
+    { name = "micawber", specifier = ">=0.7.1,<0.8" },
     { name = "nh3", specifier = ">=0.2.20" },
     { name = "oauthlib", specifier = "~=3.1" },
     { name = "opentelemetry-api", specifier = ">=1.32.1,<2" },
